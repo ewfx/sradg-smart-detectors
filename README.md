@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Anomaly detection POC
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -28,9 +28,13 @@ What inspired you to create this project? Describe the problem you're solving.
 
 ## ⚙️ What It Does
 Explain the key features and functionalities of your project.
+Classify the detected anomaly  
+Break resolution summaries and notifies
+Correct the same in source system.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
+Python
 
 ## 🚧 Challenges We Faced
 Describe the major technical or non-technical challenges your team encountered.
@@ -47,6 +51,12 @@ Describe the major technical or non-technical challenges your team encountered.
 3. Run the project  
    ```sh
    npm start  # or python app.py
+
+   Steps to be followed while execution:
+
+1. Upload input file to load the dataset.
+2. Verify the required column names.
+3. Enter the sender and recipient email and password to receive the notification (Password should be App password).
    ```
 
 ## 🏗️ Tech Stack
